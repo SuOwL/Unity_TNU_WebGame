@@ -1,0 +1,1030 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.25f1 (9b9180224418) revision 10195328'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'zh' Physical Memory: 16217 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/user/Documents/GitHub/40725016/WebGame_40725016_20220222
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+3063
+Successfully changed project path to: C:/Users/user/Documents/GitHub/40725016/WebGame_40725016_20220222
+C:/Users/user/Documents/GitHub/40725016/WebGame_40725016_20220222
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 38.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.25f1 (9b9180224418)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/40725016/WebGame_40725016_20220222/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 SUPER (ID=0x2187)
+    Vendor:   
+    VRAM:     3955 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004068 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.509 seconds
+Domain Reload Profiling:
+	ReloadAssembly (509ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (374ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (135ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006026 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Domain Reload Profiling:
+	ReloadAssembly (955ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.8 MB.
+System memory in use after: 95.9 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 2.451500 ms (FindLiveObjects: 0.132700 ms CreateObjectMapping: 0.063700 ms MarkObjects: 2.206200 ms  DeleteObjects: 0.048300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.003553 seconds 
+  Import took 0.005868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.959233 seconds.
+  path: Assets/圖片
+  artifactKey: Guid(51f5c8d7e4f19844c9d5ef8c46a12633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片 using Guid(51f5c8d7e4f19844c9d5ef8c46a12633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de7823c704cc151ca04a1f2ade0c8da') in 0.001817 seconds 
+  Import took 0.004717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.254404 seconds.
+  path: Assets/圖片/frames
+  artifactKey: Guid(845e23ef909a58b499a819ec032828c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames using Guid(845e23ef909a58b499a819ec032828c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370ce86f1e151f8a6775d378737acd2a') in 0.001863 seconds 
+  Import took 0.004901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115838 seconds.
+  path: Assets/圖片/frames/big_demon_idle_anim_f0.png
+  artifactKey: Guid(c1094154b5378c0479290294c950b819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_demon_idle_anim_f0.png using Guid(c1094154b5378c0479290294c950b819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517632655d21067eede26f2aa104e4b1') in 0.119096 seconds 
+  Import took 0.121938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/圖片/frames/big_demon_idle_anim_f1.png
+  artifactKey: Guid(d401ff46ced7a334383caf151d35dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_demon_idle_anim_f1.png using Guid(d401ff46ced7a334383caf151d35dd54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560139b3f3c79b05832f24ff14703f39') in 0.012861 seconds 
+  Import took 0.015294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/圖片/frames/big_demon_run_anim_f0.png
+  artifactKey: Guid(cce3f4260ac715140ae055b852589709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_demon_run_anim_f0.png using Guid(cce3f4260ac715140ae055b852589709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895170d2ce4f2fc72d29586621f4c4fc') in 0.013255 seconds 
+  Import took 0.015762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/圖片/frames/big_demon_idle_anim_f2.png
+  artifactKey: Guid(9025eb65d0b13dd42b67d881c13642a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_demon_idle_anim_f2.png using Guid(9025eb65d0b13dd42b67d881c13642a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defc919cfbe666eea46789344f309a46') in 0.013760 seconds 
+  Import took 0.016313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/圖片/frames/big_demon_idle_anim_f3.png
+  artifactKey: Guid(c7579bdb06e13114ba70f3b55f1f2be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_demon_idle_anim_f3.png using Guid(c7579bdb06e13114ba70f3b55f1f2be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8700aa30667d9d4da7d5d197b8b4587b') in 0.015936 seconds 
+  Import took 0.018579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.653170 seconds.
+  path: Assets/圖片/frames/big_demon_run_anim_f1.png
+  artifactKey: Guid(d8b72e15ee998ea44a977aab96a645a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_demon_run_anim_f1.png using Guid(d8b72e15ee998ea44a977aab96a645a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abb2fc90d1c775af474cb4ffa5a8fed') in 0.006547 seconds 
+  Import took 0.009433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/圖片/frames/big_zombie_idle_anim_f0.png
+  artifactKey: Guid(ad7f385d2d8389f43b436de38e8fb415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_zombie_idle_anim_f0.png using Guid(ad7f385d2d8389f43b436de38e8fb415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2cac587c601258171590dca4bac3ac') in 0.007917 seconds 
+  Import took 0.010655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/圖片/frames/big_demon_run_anim_f2.png
+  artifactKey: Guid(d496b5252a4ae114ea4790c857ce2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_demon_run_anim_f2.png using Guid(d496b5252a4ae114ea4790c857ce2bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafa7e712326fe9cf8121b44b432645f') in 0.006808 seconds 
+  Import took 0.009613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/圖片/frames/big_demon_run_anim_f3.png
+  artifactKey: Guid(062f6fb4a0b61a144b3e73eb8f3ac3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_demon_run_anim_f3.png using Guid(062f6fb4a0b61a144b3e73eb8f3ac3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629d8e0e49b9f4c3cee2ad365f3b20c6') in 0.006701 seconds 
+  Import took 0.009503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.933922 seconds.
+  path: Assets/圖片/frames/big_zombie_idle_anim_f1.png
+  artifactKey: Guid(d8a8c3f2c2d083f479bc7fe5e6f1ee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_zombie_idle_anim_f1.png using Guid(d8a8c3f2c2d083f479bc7fe5e6f1ee05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69213fd7603d1a98916bde478bcb2eb8') in 0.006850 seconds 
+  Import took 0.009827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/圖片/frames/big_zombie_idle_anim_f2.png
+  artifactKey: Guid(12ec8fe95d908e84fad16bd0ec89777d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_zombie_idle_anim_f2.png using Guid(12ec8fe95d908e84fad16bd0ec89777d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6960c7083d9941aaebff92c066a67a') in 0.006847 seconds 
+  Import took 0.009659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.713175 seconds.
+  path: Assets/圖片/frames/big_zombie_idle_anim_f3.png
+  artifactKey: Guid(9434813c470099545bfbcea950222aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_zombie_idle_anim_f3.png using Guid(9434813c470099545bfbcea950222aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18dd985add89234b023711bc65816bc') in 0.007900 seconds 
+  Import took 0.011835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/圖片/frames/big_zombie_run_anim_f0.png
+  artifactKey: Guid(50248419e1ee7054390fead789f78802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_zombie_run_anim_f0.png using Guid(50248419e1ee7054390fead789f78802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef99a1eb4f9fe44a5f679a25eb2298a5') in 0.007895 seconds 
+  Import took 0.010705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024913 seconds.
+  path: Assets/圖片/frames/big_zombie_run_anim_f1.png
+  artifactKey: Guid(34d19cc29350ea54885f0c2e1652b5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_zombie_run_anim_f1.png using Guid(34d19cc29350ea54885f0c2e1652b5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890fccdf6ae8e56cefe2b64b721ece3a') in 0.007895 seconds 
+  Import took 0.011204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/圖片/frames/big_zombie_run_anim_f2.png
+  artifactKey: Guid(3822bfeb6c05fd84f9c11f7b5977cf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_zombie_run_anim_f2.png using Guid(3822bfeb6c05fd84f9c11f7b5977cf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0ed6752dd9b302ae6c42fe9e48ee0f') in 0.010261 seconds 
+  Import took 0.012892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013339 seconds.
+  path: Assets/圖片/frames/big_zombie_run_anim_f3.png
+  artifactKey: Guid(9de35e25f523abc428cb0a3260c23646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/big_zombie_run_anim_f3.png using Guid(9de35e25f523abc428cb0a3260c23646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc21d905793d2331cf0c11e30b47a545') in 0.007522 seconds 
+  Import took 0.010418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/圖片/frames/chest_empty_open_anim_f0.png
+  artifactKey: Guid(6bb577dbc77fab74b9c817a1dae9e228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chest_empty_open_anim_f0.png using Guid(6bb577dbc77fab74b9c817a1dae9e228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3742c786cc8a16b7dccd205c6ec5dd7f') in 0.008774 seconds 
+  Import took 0.011725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355276 seconds.
+  path: Assets/圖片/frames/chest_empty_open_anim_f1.png
+  artifactKey: Guid(d27ece5849e9eaa4ca50794f3474cfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chest_empty_open_anim_f1.png using Guid(d27ece5849e9eaa4ca50794f3474cfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886c181e83e354cdc3504c922ba923f5') in 0.008679 seconds 
+  Import took 0.012265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/圖片/frames/chest_empty_open_anim_f2.png
+  artifactKey: Guid(dfca1539f8375414eab07c78c9b04068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chest_empty_open_anim_f2.png using Guid(dfca1539f8375414eab07c78c9b04068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ae295342002fd6baa9da57566ad48d') in 0.016889 seconds 
+  Import took 0.019803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/圖片/frames/chest_full_open_anim_f0.png
+  artifactKey: Guid(822c67631c2838c4fa4789c601d20996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chest_full_open_anim_f0.png using Guid(822c67631c2838c4fa4789c601d20996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799a642f338bf3d60859262bdb72f26b') in 0.008631 seconds 
+  Import took 0.011643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/圖片/frames/chest_full_open_anim_f1.png
+  artifactKey: Guid(24acb965e4bba234fa6eb69af2010f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chest_full_open_anim_f1.png using Guid(24acb965e4bba234fa6eb69af2010f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f10542a0bc3491d8deb0314677fdf90') in 0.012564 seconds 
+  Import took 0.015666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015512 seconds.
+  path: Assets/圖片/frames/chest_full_open_anim_f2.png
+  artifactKey: Guid(cb5becdbd9d766a4c8edec96892758c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chest_full_open_anim_f2.png using Guid(cb5becdbd9d766a4c8edec96892758c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7b29f16cae40af2fa0aee602257b47') in 0.011281 seconds 
+  Import took 0.014249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/圖片/frames/chest_mimic_open_anim_f0.png
+  artifactKey: Guid(5bad4a62b90004b43a0ffe3e9e444de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chest_mimic_open_anim_f0.png using Guid(5bad4a62b90004b43a0ffe3e9e444de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c01f2cead7b1f42d821779d6b5e8506') in 0.014231 seconds 
+  Import took 0.016907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.260749 seconds.
+  path: Assets/圖片/frames/chest_mimic_open_anim_f1.png
+  artifactKey: Guid(1b1abba0b55928f4ba87e8e75eba2e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chest_mimic_open_anim_f1.png using Guid(1b1abba0b55928f4ba87e8e75eba2e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c0a5718e9107d390802e49c35e6829') in 0.007659 seconds 
+  Import took 0.010645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/圖片/frames/chest_mimic_open_anim_f2.png
+  artifactKey: Guid(c914919b734c9d944b146931dca6aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chest_mimic_open_anim_f2.png using Guid(c914919b734c9d944b146931dca6aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12478e43ea6a98376beacb9ce6b4e9c0') in 0.013121 seconds 
+  Import took 0.015758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014047 seconds.
+  path: Assets/圖片/frames/chort_idle_anim_f0.png
+  artifactKey: Guid(7fef7b276cbfc174e8f17ec08eb8816e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chort_idle_anim_f0.png using Guid(7fef7b276cbfc174e8f17ec08eb8816e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae328bcc8ad1369b4871d8f427120a7e') in 0.010177 seconds 
+  Import took 0.013006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/圖片/frames/chort_idle_anim_f1.png
+  artifactKey: Guid(e3b426afe18b3354db11c53016115eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chort_idle_anim_f1.png using Guid(e3b426afe18b3354db11c53016115eca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cab96f78741167420d06064b2acf62') in 0.009440 seconds 
+  Import took 0.011987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/圖片/frames/chort_idle_anim_f2.png
+  artifactKey: Guid(56c711ad3c550e348a2e8e3ea20d7e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chort_idle_anim_f2.png using Guid(56c711ad3c550e348a2e8e3ea20d7e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0721f90ed0002eaeefda918aca514aa') in 0.008416 seconds 
+  Import took 0.011037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/圖片/frames/chort_idle_anim_f3.png
+  artifactKey: Guid(2805436c5a201a74da0e6fc7119019fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chort_idle_anim_f3.png using Guid(2805436c5a201a74da0e6fc7119019fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1c50a766919c5d9df10364a49568e9') in 0.012561 seconds 
+  Import took 0.015350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.266774 seconds.
+  path: Assets/圖片/frames/chort_run_anim_f0.png
+  artifactKey: Guid(474522bc02ddf284e82939f377e4bc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chort_run_anim_f0.png using Guid(474522bc02ddf284e82939f377e4bc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bda37676ee9ce1f01bd72a5f48d48ec') in 0.007730 seconds 
+  Import took 0.010731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/圖片/frames/chort_run_anim_f1.png
+  artifactKey: Guid(5071db8fdf441624eb1c17d32a4efb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chort_run_anim_f1.png using Guid(5071db8fdf441624eb1c17d32a4efb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6b83726d405c60109c61cdb33529cc') in 0.009329 seconds 
+  Import took 0.011821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012006 seconds.
+  path: Assets/圖片/frames/chort_run_anim_f2.png
+  artifactKey: Guid(51d671c0671b93f4b819380e29464a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chort_run_anim_f2.png using Guid(51d671c0671b93f4b819380e29464a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb4ab3f8d3dc7f58550cb57285b4be2a') in 0.007629 seconds 
+  Import took 0.010599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/圖片/frames/chort_run_anim_f3.png
+  artifactKey: Guid(91feb9b33bd8a5c47aed296f5c3fefad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/chort_run_anim_f3.png using Guid(91feb9b33bd8a5c47aed296f5c3fefad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a7904d224aa9560339f33de7aaea3d') in 0.012783 seconds 
+  Import took 0.015350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/圖片/frames/coin_anim_f1.png
+  artifactKey: Guid(36425a0fd0755944ba5fbe4c611e9f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/coin_anim_f1.png using Guid(36425a0fd0755944ba5fbe4c611e9f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4604a8631cd72b7a6f48069dd27b97') in 0.008523 seconds 
+  Import took 0.011116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/圖片/frames/coin_anim_f0.png
+  artifactKey: Guid(4c84c0226b2bed44ab10846bc7eb8592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/coin_anim_f0.png using Guid(4c84c0226b2bed44ab10846bc7eb8592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840d5cd25dc27f86611f01b0f5df427b') in 0.008604 seconds 
+  Import took 0.011370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.299209 seconds.
+  path: Assets/圖片/frames/coin_anim_f2.png
+  artifactKey: Guid(dbeb704677d1c4147938d34e4926c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/coin_anim_f2.png using Guid(dbeb704677d1c4147938d34e4926c42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec47130fb62f2b0a6b8427e31380361') in 0.007391 seconds 
+  Import took 0.010229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/圖片/frames/coin_anim_f3.png
+  artifactKey: Guid(b9f8e5aab198e544d8c9c884d0dc0499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/coin_anim_f3.png using Guid(b9f8e5aab198e544d8c9c884d0dc0499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751002adec9dd8a9aca55f89c3f4989e') in 0.013826 seconds 
+  Import took 0.016359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/圖片/frames/column_mid.png
+  artifactKey: Guid(e467a508783635741953b55bc9d50ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/column_mid.png using Guid(e467a508783635741953b55bc9d50ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9c7a088c47db141a7dd2181f86e626') in 0.013606 seconds 
+  Import took 0.016205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/圖片/frames/coulmn_base.png
+  artifactKey: Guid(18d5135d72a56a34d8a9b308912d8259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/coulmn_base.png using Guid(18d5135d72a56a34d8a9b308912d8259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b77857a0e371cea40f2598fb46c6ed1') in 0.016557 seconds 
+  Import took 0.019452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/圖片/frames/doors_frame_left.png
+  artifactKey: Guid(69331b5861ef0a247b67a9ab20bceced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/doors_frame_left.png using Guid(69331b5861ef0a247b67a9ab20bceced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60402f1d358e4d71cf2d6aac1aa22c8a') in 0.014106 seconds 
+  Import took 0.016781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/圖片/frames/doors_all.png
+  artifactKey: Guid(0abff1f7831897642a765c007f2efe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/doors_all.png using Guid(0abff1f7831897642a765c007f2efe40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c582b8ead2ffb1f73078d869a19f60b5') in 0.017159 seconds 
+  Import took 0.019865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/圖片/frames/doors_frame_righ.png
+  artifactKey: Guid(a700d8cbeaab53a46872ca28b559489d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/doors_frame_righ.png using Guid(a700d8cbeaab53a46872ca28b559489d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acb758bf4ce3565813fcc9764a37739') in 0.007295 seconds 
+  Import took 0.010077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/圖片/frames/column_top.png
+  artifactKey: Guid(822790bd2f4c5104c985d0aee9c38c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/column_top.png using Guid(822790bd2f4c5104c985d0aee9c38c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf70ae3f0a48f99cceba44f479189975') in 0.006690 seconds 
+  Import took 0.009437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/圖片/frames/doors_frame_top.png
+  artifactKey: Guid(d4823aa684b9d20479cc33c28568646e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/doors_frame_top.png using Guid(d4823aa684b9d20479cc33c28568646e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e5c626ea9108e0419acd2c1928ea83') in 0.006663 seconds 
+  Import took 0.009369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/圖片/frames/crate.png
+  artifactKey: Guid(95ed42b9e4eb6ba48b85857ef0ffae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/crate.png using Guid(95ed42b9e4eb6ba48b85857ef0ffae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3dddeb43502c7b6d82fa7d280c9af7') in 0.007451 seconds 
+  Import took 0.010049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.220087 seconds.
+  path: Assets/圖片/frames/doors_leaf_closed.png
+  artifactKey: Guid(b74fd661991420e4291999c302cd0803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/doors_leaf_closed.png using Guid(b74fd661991420e4291999c302cd0803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d60487e098f1304d046f100db31c60') in 0.007268 seconds 
+  Import took 0.010371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/圖片/frames/doors_leaf_open.png
+  artifactKey: Guid(f1e35e825a478224cae6d048b41e806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/doors_leaf_open.png using Guid(f1e35e825a478224cae6d048b41e806d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8da5061fa5f0e65d9647569c3cfffb6') in 0.007796 seconds 
+  Import took 0.010401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013978 seconds.
+  path: Assets/圖片/frames/edge.png
+  artifactKey: Guid(7b42c942c93b1ee44a6026157d25ccd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/edge.png using Guid(7b42c942c93b1ee44a6026157d25ccd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4884572be2b816ebaea5263c97b56f41') in 0.005773 seconds 
+  Import took 0.008583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/圖片/frames/elf_f_hit_anim_f0.png
+  artifactKey: Guid(756ca191227f5844caab2b55d08abfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_f_hit_anim_f0.png using Guid(756ca191227f5844caab2b55d08abfe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f31a91c8cb0ef5a1e69a736dbc090d') in 0.007765 seconds 
+  Import took 0.010360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/圖片/frames/elf_f_idle_anim_f1.png
+  artifactKey: Guid(cf5c31c7568991541bed1a7e170028ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_f_idle_anim_f1.png using Guid(cf5c31c7568991541bed1a7e170028ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0ec06b2abd5a4881b315a5159d3806') in 0.007132 seconds 
+  Import took 0.009904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/圖片/frames/elf_f_idle_anim_f0.png
+  artifactKey: Guid(c88d1e5edf8551c4aa9c9841045b8ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_f_idle_anim_f0.png using Guid(c88d1e5edf8551c4aa9c9841045b8ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bcbdaca003e7823ad556a5d377ae77') in 0.006658 seconds 
+  Import took 0.009387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013293 seconds.
+  path: Assets/圖片/frames/elf_f_idle_anim_f2.png
+  artifactKey: Guid(d2a951b97fdb50047bff43d6130b61ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_f_idle_anim_f2.png using Guid(d2a951b97fdb50047bff43d6130b61ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b265c8e17e3ae4a4a04bcd6911e0965f') in 0.006479 seconds 
+  Import took 0.009405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/圖片/frames/elf_f_idle_anim_f3.png
+  artifactKey: Guid(032d13645527cc7489746e28036bed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_f_idle_anim_f3.png using Guid(032d13645527cc7489746e28036bed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0e85cbc82731e0520a412e23c16920') in 0.006696 seconds 
+  Import took 0.009259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.429751 seconds.
+  path: Assets/圖片/frames/elf_f_run_anim_f0.png
+  artifactKey: Guid(f4756de2245ec4d4aa14264a7a7c90c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_f_run_anim_f0.png using Guid(f4756de2245ec4d4aa14264a7a7c90c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40cf9adb336e59c268c71be7b09bf6a') in 0.006503 seconds 
+  Import took 0.009321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/圖片/frames/elf_f_run_anim_f1.png
+  artifactKey: Guid(e470fb04685afb64bbfe8935f75152e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_f_run_anim_f1.png using Guid(e470fb04685afb64bbfe8935f75152e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176bbd2a375a62b7b7fbfc3be5400d4b') in 0.006954 seconds 
+  Import took 0.009657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140673 seconds.
+  path: Assets/圖片/frames/elf_f_run_anim_f2.png
+  artifactKey: Guid(89484784501f1d449a23d47877ae688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_f_run_anim_f2.png using Guid(89484784501f1d449a23d47877ae688f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7893327c5ff23db7cb60abd40742bf27') in 0.006189 seconds 
+  Import took 0.009137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/圖片/frames/elf_f_run_anim_f3.png
+  artifactKey: Guid(183053ed89851fe40b193f578c78fff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_f_run_anim_f3.png using Guid(183053ed89851fe40b193f578c78fff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d5251774d05bba8f3e9fbcd9095519') in 0.006725 seconds 
+  Import took 0.009314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.364817 seconds.
+  path: Assets/圖片/frames/elf_m_hit_anim_f0.png
+  artifactKey: Guid(cb1a9cbfb40ae9b42aef79a996dcffea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_m_hit_anim_f0.png using Guid(cb1a9cbfb40ae9b42aef79a996dcffea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5016424f273c2b76c5c9bbb7117a41') in 0.007038 seconds 
+  Import took 0.010023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/圖片/frames/elf_m_idle_anim_f0.png
+  artifactKey: Guid(14626ed38b29bc74f8a844efdc81b756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_m_idle_anim_f0.png using Guid(14626ed38b29bc74f8a844efdc81b756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3339db23e66aee3aba0494550bc31db5') in 0.007357 seconds 
+  Import took 0.010013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019566 seconds.
+  path: Assets/圖片/frames/elf_m_idle_anim_f1.png
+  artifactKey: Guid(70838c67ce1d6824883f033a01273ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_m_idle_anim_f1.png using Guid(70838c67ce1d6824883f033a01273ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b643dc41c283cd097f7c71f5b5e179b') in 0.006452 seconds 
+  Import took 0.009596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/圖片/frames/elf_m_idle_anim_f2.png
+  artifactKey: Guid(fbdc6406bb5a0f2439ffe59291e44b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_m_idle_anim_f2.png using Guid(fbdc6406bb5a0f2439ffe59291e44b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1f26be1917be04e6e09d71868784a4') in 0.007255 seconds 
+  Import took 0.009843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388432 seconds.
+  path: Assets/圖片/frames/elf_m_idle_anim_f3.png
+  artifactKey: Guid(6de6d2db34663e846887be991df68e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_m_idle_anim_f3.png using Guid(6de6d2db34663e846887be991df68e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208a3165b041b2f778bfcdc4a3c6ef14') in 0.007443 seconds 
+  Import took 0.010582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/圖片/frames/elf_m_run_anim_f0.png
+  artifactKey: Guid(321ae1c1354f4914dbe1d711afd613b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_m_run_anim_f0.png using Guid(321ae1c1354f4914dbe1d711afd613b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171042c8684235bab9313459775c01de') in 0.008196 seconds 
+  Import took 0.011123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008178 seconds.
+  path: Assets/圖片/frames/elf_m_run_anim_f1.png
+  artifactKey: Guid(f19fe07c1c14532439253f8a7b92d11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_m_run_anim_f1.png using Guid(f19fe07c1c14532439253f8a7b92d11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bbb38521523b5691bfc3f8a03c8f44') in 0.008148 seconds 
+  Import took 0.011267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/圖片/frames/elf_m_run_anim_f2.png
+  artifactKey: Guid(fd2d9942799a0ee43a18f77601f5c38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_m_run_anim_f2.png using Guid(fd2d9942799a0ee43a18f77601f5c38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72db6a3d421a8320b9db58968585958d') in 0.008047 seconds 
+  Import took 0.010886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008999 seconds.
+  path: Assets/圖片/frames/elf_m_run_anim_f3.png
+  artifactKey: Guid(c51504bb318412c439075c96297a638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/elf_m_run_anim_f3.png using Guid(c51504bb318412c439075c96297a638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589378f1f4f3fc74c393a6c4e0c3248e') in 0.006058 seconds 
+  Import took 0.009447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/圖片/frames/flask_big_blue.png
+  artifactKey: Guid(c67a884a2eec209408dc7bc7fbf29b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/flask_big_blue.png using Guid(c67a884a2eec209408dc7bc7fbf29b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcda2d035a4862e47a6bfbdb771fea74') in 0.008063 seconds 
+  Import took 0.010993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/圖片/frames/flask_big_green.png
+  artifactKey: Guid(14748063fd2b94f408e19299e8208aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/flask_big_green.png using Guid(14748063fd2b94f408e19299e8208aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd344dc99f37a2dbeb7d061113e11e50a') in 0.007437 seconds 
+  Import took 0.010255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/圖片/frames/flask_big_red.png
+  artifactKey: Guid(7810c68e4ba44c04591e5bef784bfffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/flask_big_red.png using Guid(7810c68e4ba44c04591e5bef784bfffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c54103253b897768e1595ea31733663') in 0.007774 seconds 
+  Import took 0.010820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.255848 seconds.
+  path: Assets/圖片/frames/flask_big_yellow.png
+  artifactKey: Guid(70b098031488fef41999543691b8c299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/flask_big_yellow.png using Guid(70b098031488fef41999543691b8c299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf10638a8d8dfbba0f952d8c8186299e') in 0.006500 seconds 
+  Import took 0.009634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/圖片/frames/flask_blue.png
+  artifactKey: Guid(e7944e8796bb12c47949bf5edf606fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/flask_blue.png using Guid(e7944e8796bb12c47949bf5edf606fc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d2a5000677df629db6682fd4d2986e') in 0.007607 seconds 
+  Import took 0.010745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014505 seconds.
+  path: Assets/圖片/frames/flask_green.png
+  artifactKey: Guid(7b81f58a240dbf54fa39ba815aba64fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/flask_green.png using Guid(7b81f58a240dbf54fa39ba815aba64fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a657930e893f8ab14a4e011ab06b786') in 0.005939 seconds 
+  Import took 0.008946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/圖片/frames/flask_red.png
+  artifactKey: Guid(fc6d93a9e4892924fb3eab09d0bc2056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/flask_red.png using Guid(fc6d93a9e4892924fb3eab09d0bc2056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383ec4895cb157ee37c1f671160e78cd') in 0.007817 seconds 
+  Import took 0.010368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002282 seconds.
+  path: Assets/圖片/frames/flask_yellow.png
+  artifactKey: Guid(6d273f867401fda42b3f08bfae165312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/flask_yellow.png using Guid(6d273f867401fda42b3f08bfae165312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17aae452a9018a79203c1ff355bff9e1') in 0.006494 seconds 
+  Import took 0.009342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/圖片/frames/floor_1.png
+  artifactKey: Guid(04a2013f8e45cc449bd32bc1ed886553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_1.png using Guid(04a2013f8e45cc449bd32bc1ed886553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a63eb7e1c7d2e6d9a5054e43973b4dbb') in 0.007771 seconds 
+  Import took 0.010641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042255 seconds.
+  path: Assets/圖片/frames/floor_2.png
+  artifactKey: Guid(9e97bcf1d8c797f4288f0b408f6168a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_2.png using Guid(9e97bcf1d8c797f4288f0b408f6168a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6a5c21db7de56a75db0ed2fad15250') in 0.006071 seconds 
+  Import took 0.008946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/圖片/frames/floor_3.png
+  artifactKey: Guid(78235ec3248586146b61072257f23c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_3.png using Guid(78235ec3248586146b61072257f23c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905e311c648ecde63e055b81cda9967d') in 0.006630 seconds 
+  Import took 0.009414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221645 seconds.
+  path: Assets/圖片/frames/floor_4.png
+  artifactKey: Guid(45ee1c72eb7f58246938b65bf75e5e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_4.png using Guid(45ee1c72eb7f58246938b65bf75e5e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e15e737e612b9bd3ffac7d95dffc027') in 0.007061 seconds 
+  Import took 0.010285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/圖片/frames/floor_5.png
+  artifactKey: Guid(773532dc5d908a048931f0fa1ffccade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_5.png using Guid(773532dc5d908a048931f0fa1ffccade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a31090cadb19d612f724464b6b2156') in 0.007601 seconds 
+  Import took 0.010523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018423 seconds.
+  path: Assets/圖片/frames/floor_6.png
+  artifactKey: Guid(bc42ecdde91cbc14ca36ab21b317687d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_6.png using Guid(bc42ecdde91cbc14ca36ab21b317687d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6a2f2aef0d6b93fdfd9e40af3feb06') in 0.006418 seconds 
+  Import took 0.009498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/圖片/frames/floor_7.png
+  artifactKey: Guid(853d5dcf6893aac478f4137130681dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_7.png using Guid(853d5dcf6893aac478f4137130681dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fab5354f39d4bf24271441602c97f3') in 0.007046 seconds 
+  Import took 0.010065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008291 seconds.
+  path: Assets/圖片/frames/floor_8.png
+  artifactKey: Guid(51208eb5070cb2f4795b202e39d740b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_8.png using Guid(51208eb5070cb2f4795b202e39d740b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45e36a0ad7b4db8f52d6765319f8de03') in 0.006393 seconds 
+  Import took 0.009448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/圖片/frames/floor_ladder.png
+  artifactKey: Guid(25f24a8a23843d048bd91dd546e8cf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_ladder.png using Guid(25f24a8a23843d048bd91dd546e8cf01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdc9e6cc55788771bbf43344d267296f') in 0.006609 seconds 
+  Import took 0.009287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370071 seconds.
+  path: Assets/圖片/frames/floor_spikes_anim_f0.png
+  artifactKey: Guid(eea1456c92c083a42abc26f9f2b92fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_spikes_anim_f0.png using Guid(eea1456c92c083a42abc26f9f2b92fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733c9ad513faeb02bc161c58f19d47d5') in 0.006837 seconds 
+  Import took 0.010192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/圖片/frames/floor_spikes_anim_f1.png
+  artifactKey: Guid(6012fee035892f94aa6dbacb3bc712b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_spikes_anim_f1.png using Guid(6012fee035892f94aa6dbacb3bc712b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af20a1e9aff57aca64ef463c60f0abdb') in 0.006738 seconds 
+  Import took 0.009446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009417 seconds.
+  path: Assets/圖片/frames/floor_spikes_anim_f2.png
+  artifactKey: Guid(d05b4566717f55a45863ff6eb2080ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_spikes_anim_f2.png using Guid(d05b4566717f55a45863ff6eb2080ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505630f98ea3c3eae929858f46a86210') in 0.006131 seconds 
+  Import took 0.008926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/圖片/frames/floor_spikes_anim_f3.png
+  artifactKey: Guid(f5b9fcb328b6a014196c1fa3c0e8e391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/floor_spikes_anim_f3.png using Guid(f5b9fcb328b6a014196c1fa3c0e8e391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44160d43f4b2f3839a1741973e48b838') in 0.006710 seconds 
+  Import took 0.009286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.190537 seconds.
+  path: Assets/圖片/frames/goblin_idle_anim_f0.png
+  artifactKey: Guid(2607abe5482e7e04db8f2471b1b2b295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/goblin_idle_anim_f0.png using Guid(2607abe5482e7e04db8f2471b1b2b295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '718178857fa65b81cca0a9c6ea87aef4') in 0.009806 seconds 
+  Import took 0.012616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/圖片/frames/goblin_idle_anim_f1.png
+  artifactKey: Guid(d88209c1df5c3bb41a79dd936f9af67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/goblin_idle_anim_f1.png using Guid(d88209c1df5c3bb41a79dd936f9af67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bb44cc77ee9f3845884282c594f4f0') in 0.012429 seconds 
+  Import took 0.014976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015242 seconds.
+  path: Assets/圖片/frames/goblin_idle_anim_f2.png
+  artifactKey: Guid(e18a48440a7f7cc419f2047c98a639aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/goblin_idle_anim_f2.png using Guid(e18a48440a7f7cc419f2047c98a639aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18d9f436b2d36e93030508f9f011fdc') in 0.007249 seconds 
+  Import took 0.010083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/圖片/frames/goblin_idle_anim_f3.png
+  artifactKey: Guid(8fd6b074bfed07f439722f6f0950ef40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/goblin_idle_anim_f3.png using Guid(8fd6b074bfed07f439722f6f0950ef40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4600acd829d59421766b374e6f59e21f') in 0.007298 seconds 
+  Import took 0.009909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.385777 seconds.
+  path: Assets/圖片/frames/goblin_run_anim_f0.png
+  artifactKey: Guid(893600927e6ac664992bd32d31b8a6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/goblin_run_anim_f0.png using Guid(893600927e6ac664992bd32d31b8a6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8400197b5c52c9c031996484f071c74') in 0.011384 seconds 
+  Import took 0.014528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/圖片/frames/goblin_run_anim_f1.png
+  artifactKey: Guid(0e711a04de7b8644ebe82247bf73a4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/goblin_run_anim_f1.png using Guid(0e711a04de7b8644ebe82247bf73a4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf4ff4e456926cb3ac703a34f5a540f') in 0.011830 seconds 
+  Import took 0.014383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017934 seconds.
+  path: Assets/圖片/frames/goblin_run_anim_f2.png
+  artifactKey: Guid(72cfde1d271b540499df89194a8c47d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/goblin_run_anim_f2.png using Guid(72cfde1d271b540499df89194a8c47d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2635ab81f73c61a25b24e620a75d3f40') in 0.011750 seconds 
+  Import took 0.014663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/圖片/frames/ice_zombie_idle_anim_f0.png
+  artifactKey: Guid(247b131bd490bc641b0af681316f64b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/ice_zombie_idle_anim_f0.png using Guid(247b131bd490bc641b0af681316f64b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2eb432127a3db891ed37349aa95e7c') in 0.007897 seconds 
+  Import took 0.010414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/圖片/frames/hole.png
+  artifactKey: Guid(af19152f496f4064ba5b1b3b320e8f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/hole.png using Guid(af19152f496f4064ba5b1b3b320e8f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0bc679691b2bf193b2bc7917c60638') in 0.011277 seconds 
+  Import took 0.014096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/圖片/frames/goblin_run_anim_f3.png
+  artifactKey: Guid(e826eb33816d3014596c222989cc9843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/goblin_run_anim_f3.png using Guid(e826eb33816d3014596c222989cc9843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3835938f00630386a0051e359d92ae36') in 0.011446 seconds 
+  Import took 0.014177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019696 seconds.
+  path: Assets/圖片/frames/ice_zombie_idle_anim_f1.png
+  artifactKey: Guid(e6c2398ba5eef594c9dec318aa49bf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/ice_zombie_idle_anim_f1.png using Guid(e6c2398ba5eef594c9dec318aa49bf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5963c00e818467e2055fcabbbb58f7ea') in 0.007166 seconds 
+  Import took 0.009932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/圖片/frames/ice_zombie_idle_anim_f2.png
+  artifactKey: Guid(3f38dc490cbdc9b47bbf1fc01dd03140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/ice_zombie_idle_anim_f2.png using Guid(3f38dc490cbdc9b47bbf1fc01dd03140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e809fccef6fd9cd4863b81d014b00b') in 0.016851 seconds 
+  Import took 0.019418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.600930 seconds.
+  path: Assets/圖片/frames/ice_zombie_idle_anim_f3.png
+  artifactKey: Guid(a061dcb786b79cd41be7afcd41bd8806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/ice_zombie_idle_anim_f3.png using Guid(a061dcb786b79cd41be7afcd41bd8806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2480bae8d0c8c1431e4fa2fcd50dd57') in 0.012134 seconds 
+  Import took 0.015304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/圖片/frames/ice_zombie_run_anim_f0.png
+  artifactKey: Guid(7d0bb1673cc29054c8014e8acac880e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/ice_zombie_run_anim_f0.png using Guid(7d0bb1673cc29054c8014e8acac880e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c003d9a2192145c33eb0986f50b477') in 0.010940 seconds 
+  Import took 0.013475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036125 seconds.
+  path: Assets/圖片/frames/ice_zombie_run_anim_f1.png
+  artifactKey: Guid(373b8f645e3dabb4ea933ebfd17ddf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/ice_zombie_run_anim_f1.png using Guid(373b8f645e3dabb4ea933ebfd17ddf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1fbb7a6cbafc908521d00dd4f3d4ef') in 0.009904 seconds 
+  Import took 0.013105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/圖片/frames/ice_zombie_run_anim_f2.png
+  artifactKey: Guid(0023fce181bfdc7469caf023d5bdc1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/ice_zombie_run_anim_f2.png using Guid(0023fce181bfdc7469caf023d5bdc1d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1e7a6342cd7ecdab0474705a64d9ce') in 0.007935 seconds 
+  Import took 0.010599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261911 seconds.
+  path: Assets/圖片/frames/ice_zombie_run_anim_f3.png
+  artifactKey: Guid(67fbe4ec52b0789408934ededd1f1189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/ice_zombie_run_anim_f3.png using Guid(67fbe4ec52b0789408934ededd1f1189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5488b307c36678bf590d393dec5436') in 0.011115 seconds 
+  Import took 0.014134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/圖片/frames/imp_idle_anim_f0.png
+  artifactKey: Guid(614c5892ae7ae2548a8d2fb6b7deb0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/imp_idle_anim_f0.png using Guid(614c5892ae7ae2548a8d2fb6b7deb0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d73ae2183e37c383ed9fc9fbd79d416') in 0.014678 seconds 
+  Import took 0.017396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023674 seconds.
+  path: Assets/圖片/frames/imp_idle_anim_f1.png
+  artifactKey: Guid(3f743baf233064f479a47a92e8e450f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/imp_idle_anim_f1.png using Guid(3f743baf233064f479a47a92e8e450f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0f78ad81479079131e1f13ad25d06d') in 0.007992 seconds 
+  Import took 0.010887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/圖片/frames/imp_idle_anim_f2.png
+  artifactKey: Guid(2819f0f5795128c43924d7523552abc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/imp_idle_anim_f2.png using Guid(2819f0f5795128c43924d7523552abc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb5e429acafa07da81765e25110885e') in 0.011039 seconds 
+  Import took 0.013578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015297 seconds.
+  path: Assets/圖片/frames/imp_idle_anim_f3.png
+  artifactKey: Guid(2b83da807cc675046811f049aa30da73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/imp_idle_anim_f3.png using Guid(2b83da807cc675046811f049aa30da73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f15c9ddbc4160fff919b98f39fb709') in 0.007489 seconds 
+  Import took 0.010264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/圖片/frames/imp_run_anim_f0.png
+  artifactKey: Guid(ccd364aec6318564abde57605ef9f0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/圖片/frames/imp_run_anim_f0.png using Guid(ccd364aec6318564abde57605ef9f0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6183d9bc186c47ec19bd26d882fc82') in 0.007388 seconds 
+  Import took 0.010176 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
