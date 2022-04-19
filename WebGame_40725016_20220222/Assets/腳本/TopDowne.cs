@@ -24,11 +24,11 @@ namespace Se
             rig = GetComponent<Rigidbody2D>();
         }
 
-        private void Undate()
+        private void Update()
         {
-            float h = Input.GetAxis("Horizontal");
+            //float h = Input.GetAxis("Horizontal");
 
-            print("水平軸向直:"+ h);
+            //print("水平軸向直:"+ h);
 
             GetInput();
             Move();
