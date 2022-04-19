@@ -26,6 +26,10 @@ namespace Se
 
         private void Undate()
         {
+            float h = Input.GetAxis("Horizontal");
+
+            print("水平軸向直:"+ h);
+
             GetInput();
             Move();
             Rotate();

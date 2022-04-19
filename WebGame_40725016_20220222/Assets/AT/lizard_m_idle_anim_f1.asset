@@ -9,15 +9,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: "\u706B\u7403"
-  m_EditorClassIdentifier: Assembly-CSharp:Se:DataWeapon
+  m_Script: {fileID: 11500000, guid: db4c7117fd5cc0a4ca2b70e09618e85f, type: 3}
+  m_Name: lizard_m_idle_anim_f1
+  m_EditorClassIdentifier: 
   speedFly: 500
   attack: 10
   countStart: 1
   countMax: 20
   interval: 3.5
   v2SpawnPoint:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 7.79e-43}
-  - {x: 0, y: 0, z: 3.2765881e-18}
+  - {x: -0.5, y: 0, z: 0}
+  - {x: 0, y: 0.5, z: 0}
+  - {x: 0.5, y: 0, z: 0}
+  goWeapon: {fileID: 1940021453774634336, guid: 9cb8a8e85f38d954eb1ba7d85556450c, type: 3}
+  v3Direction: {x: 0, y: 5, z: 0}

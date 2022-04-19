@@ -9,7 +9,7 @@ namespace Se
 
     [CreateAssetMenu(menuName = "Se/Data Weapon", fileName = "Data Weapon")]
     public class DataWeapon : ScriptableObject
-   
+
     {
         [Header("飛行速度"), Range(0, 3500)]
         public float speedFly = 500;
@@ -24,6 +24,11 @@ namespace Se
 
         [Header("生成位置")]
         public Vector3[] v2SpawnPoint;
+        [Header("武器物件")]
+        public GameObject goWeapon;
+        [Header("飛行方向")]
+        public Vector3 v3Direction;
+
     }
 }
 

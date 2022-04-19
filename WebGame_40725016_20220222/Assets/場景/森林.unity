@@ -620,7 +620,7 @@ GameObject:
   - component: {fileID: 1230274960}
   - component: {fileID: 1230274959}
   - component: {fileID: 1230274962}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: "\u4E3B\u89D2"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -737,8 +737,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.030396283, y: 0.07497746}
-  m_Size: {x: 0.5292074, y: 0.88867915}
+  m_Offset: {x: 0.030396283, y: -0.47626874}
+  m_Size: {x: 0.5292074, y: 0.9503091}
   m_Direction: 0
 --- !u!50 &1230274961
 Rigidbody2D:
@@ -760,7 +760,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!114 &1230274962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4871625aa0de40429a0bccd9352261c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataWeapon: {fileID: 0}
+  dataWeapon: {fileID: 11400000, guid: c3e5d066f37a6f949bb9fb4a148dcc70, type: 2}
 --- !u!1 &1293586124
 GameObject:
   m_ObjectHideFlags: 3
