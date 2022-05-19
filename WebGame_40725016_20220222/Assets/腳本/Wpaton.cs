@@ -20,9 +20,11 @@ public class Wpaton : MonoBehaviour
         {
             Gizmos.color = new Color(1, 0, 0, 0.5f);
 
-            for(int i =0;i <dataWeapon.v2SpawnPoint.Length; i++)
-            Gizmos.DrawSphere(transform.position + dataWeapon.v2SpawnPoint[i], 0.1f);
-        }
+            for (int i = 0; i < dataWeapon.v2SpawnPoint.Length; i++)
+            {
+                Gizmos.DrawSphere(transform.position + dataWeapon.v2SpawnPoint[i], 0.1f);
+            }
+         }
 
        
 

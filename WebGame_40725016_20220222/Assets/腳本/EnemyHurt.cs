@@ -28,7 +28,7 @@ namespace Se
             base.GetHurt(damage);
 
             GameObject temp =Instantiate(goCanvasHurt, transform.position, Quaternion.identity);
-            temp,GetComponent<HurtNumberEffect>().UpdateDamage(damage);
+            temp.GetComponent<HurtNumberEffect>().UpdateDamage(damage);
         }
         private override void Dead()
         {
@@ -36,11 +36,12 @@ namespace Se
             ani.SetTrigger(parameterDead);
 
             enemySystem.enabled = false;
-            GetComponent<Collider2D>(),enabled = false;
+            GetComponent<Collider2D>().enabled = false;
             Destroy(gameObject, 1.5f);
 
             DropExp();
         }
+    
 
         private void  DropExp()
         {
@@ -51,7 +52,9 @@ namespace Se
                 GameObject tempExp = Instantiate(goExp, transform.position, Quaternion.identity);
                 tempExp.AddComponent<Exp>().typeExp = data.typeExp;
             }
+            
         }
-    }
+    
+}
 
 }

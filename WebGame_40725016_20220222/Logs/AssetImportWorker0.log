@@ -15,11 +15,11 @@ C:/Users/User/Desktop/40725016網頁設計/Unity_TNU_WebGame/WebGame_40725016_20
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54626
+50948
 Successfully changed project path to: C:/Users/User/Desktop/40725016網頁設計/Unity_TNU_WebGame/WebGame_40725016_20220222
 C:/Users/User/Desktop/40725016網頁設計/Unity_TNU_WebGame/WebGame_40725016_20220222
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 64.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001090 seconds.
+Registered in 0.001493 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.676 seconds
+- Completed reload, in  0.769 seconds
 Domain Reload Profiling:
-	ReloadAssembly (677ms)
-		BeginReloadAssembly (55ms)
+	ReloadAssembly (770ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (532ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (617ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (214ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (206ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (233ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (54ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (93ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007432 seconds.
+Registered in 0.007212 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 59.40 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.316 seconds
+- Completed reload, in  1.546 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1316ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (1547ms)
+		BeginReloadAssembly (196ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1097ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1270ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (373ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (404ms)
+			SetupTypeCache (426ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (474ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2350 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.9 MB.
+Unloading 2353 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.0 MB.
 System memory in use after: 102.1 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2784.
-Total: 4.425200 ms (FindLiveObjects: 0.524000 ms CreateObjectMapping: 0.278900 ms MarkObjects: 3.493500 ms  DeleteObjects: 0.127700 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2787.
+Total: 5.102500 ms (FindLiveObjects: 0.271200 ms CreateObjectMapping: 0.238400 ms MarkObjects: 4.426300 ms  DeleteObjects: 0.164700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,137 +131,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/資料武器/lizard_m_idle_anim_f1.asset
-  artifactKey: Guid(c3e5d066f37a6f949bb9fb4a148dcc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/資料武器/lizard_m_idle_anim_f1.asset using Guid(c3e5d066f37a6f949bb9fb4a148dcc70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f50b90be6d522ef77b3e755f6b8b17') in 0.038405 seconds 
-  Import took 0.043613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/調色盤/wall_corner_bottom_right.asset
-  artifactKey: Guid(e21336a5b86759d4d8b901b5ccde1bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/wall_corner_bottom_right.asset using Guid(e21336a5b86759d4d8b901b5ccde1bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6cda869b2b71edff57303ab2b1f2f7') in 0.100652 seconds 
-  Import took 0.106928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/調色盤/wall_corner_left.asset
-  artifactKey: Guid(8a65b59737b90194cbd8ec0eb364f21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/wall_corner_left.asset using Guid(8a65b59737b90194cbd8ec0eb364f21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6864a42f2773469f6b00f277687156ad') in 0.010295 seconds 
-  Import took 0.016872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/調色盤/wall_corner_front_left.asset
-  artifactKey: Guid(ef32c9957b866d24f897c0411fe24f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/wall_corner_front_left.asset using Guid(ef32c9957b866d24f897c0411fe24f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed2f704d09a7a0edc0896094b42f4ec') in 0.008471 seconds 
-  Import took 0.015508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/調色盤/wall_corner_front_right.asset
-  artifactKey: Guid(2f45b721d65a0ed42a1e91fa80d6a476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/調色盤/wall_corner_front_right.asset using Guid(2f45b721d65a0ed42a1e91fa80d6a476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4542c67e768a5904ca29590be7182b') in 0.010042 seconds 
-  Import took 0.015104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/資料敵人/怪獸.asset
-  artifactKey: Guid(1e9c4acff7117dc459c51a3b12960bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/資料敵人/怪獸.asset using Guid(1e9c4acff7117dc459c51a3b12960bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acbbb2c647468a41dc98088c8c4484a') in 0.003500 seconds 
-  Import took 0.008112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.217865 seconds.
   path: Assets/腳本/HurtNumberEffect.cs
   artifactKey: Guid(fae66aec8038c614ab024caa1f5102e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/腳本/HurtNumberEffect.cs using Guid(fae66aec8038c614ab024caa1f5102e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2f2c0a0ca895db962100cc5d90d59a') in 0.013866 seconds 
-  Import took 0.019378 seconds .
+Start importing Assets/腳本/HurtNumberEffect.cs using Guid(fae66aec8038c614ab024caa1f5102e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7334245f02974e25eb935505a7632b84') in 0.037323 seconds 
+  Import took 0.041547 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.311325 seconds.
-  path: Assets/腳本/HurtSystem.cs
-  artifactKey: Guid(bca3a36169a4c27408991be58047df2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/腳本/HurtSystem.cs using Guid(bca3a36169a4c27408991be58047df2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6626af4f7a5a10ed49358f55094d2542') in 0.002123 seconds 
-  Import took 0.006655 seconds .
+  Time since last request: 18.031230 seconds.
+  path: Assets/腳本/HurtNumberEffect.cs
+  artifactKey: Guid(fae66aec8038c614ab024caa1f5102e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/腳本/HurtNumberEffect.cs using Guid(fae66aec8038c614ab024caa1f5102e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6de7d0161acd90eb00c9ed8abbd0ef3') in 0.003844 seconds 
+  Import took 0.013024 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.653784 seconds.
-  path: Assets/腳本/DataWeapon.cs
-  artifactKey: Guid(db4c7117fd5cc0a4ca2b70e09618e85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/腳本/DataWeapon.cs using Guid(db4c7117fd5cc0a4ca2b70e09618e85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa63a0aa39ac3c96cc5a21fa415e2b5') in 0.002591 seconds 
-  Import took 0.007339 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.438829 seconds.
-  path: Assets/腳本/DataEnemy.cs
-  artifactKey: Guid(38612f3419306e64e83b5ae046ab0658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/腳本/DataEnemy.cs using Guid(38612f3419306e64e83b5ae046ab0658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75c1fdaa2111f9a145b83c9e2470ab4') in 0.002189 seconds 
-  Import took 0.007403 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.337527 seconds.
-  path: Assets/腳本/EnemySystem.cs
-  artifactKey: Guid(2425d83831c67314cbaa1f8c7250c7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/腳本/EnemySystem.cs using Guid(2425d83831c67314cbaa1f8c7250c7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcdf841d4fab5022c40b555b0e934c0') in 0.002123 seconds 
-  Import took 0.006855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.483828 seconds.
-  path: Assets/圖片/方形圖片.png
-  artifactKey: Guid(a5b65c1cbbe01cd4f97494ea53849956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/圖片/方形圖片.png using Guid(a5b65c1cbbe01cd4f97494ea53849956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1240c319a81128a3277184d2e6398ef') in 0.065565 seconds 
-  Import took 0.069729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1408.229646 seconds.
-  path: Assets/腳本/Exp.cs
-  artifactKey: Guid(bcd52fc2ed084184591e785ed92f6e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/腳本/Exp.cs using Guid(bcd52fc2ed084184591e785ed92f6e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ab9ccd41cd30d7c968868a85b9a913') in 0.004956 seconds 
-  Import took 0.011698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1604.067093 seconds.
-  path: Assets/腳本/Exp.cs
-  artifactKey: Guid(bcd52fc2ed084184591e785ed92f6e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/腳本/Exp.cs using Guid(bcd52fc2ed084184591e785ed92f6e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd364d4452fcc2a739aabd003f8dc09fa') in 0.004130 seconds 
-  Import took 0.009383 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.964221 seconds.
-  path: Assets/腳本/LevelManager.cs
-  artifactKey: Guid(5e13a4c012d16964fa6bca11d7cf0c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/腳本/LevelManager.cs using Guid(5e13a4c012d16964fa6bca11d7cf0c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92feb6b9143270fb4330f8912b1f41dc') in 0.004081 seconds 
-  Import took 0.011135 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 489.740012 seconds.
-  path: Assets/腳本/LevelManager.cs
-  artifactKey: Guid(5e13a4c012d16964fa6bca11d7cf0c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/腳本/LevelManager.cs using Guid(5e13a4c012d16964fa6bca11d7cf0c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c6b22be71163b8a52ffcb3b9ade37d') in 0.002354 seconds 
-  Import took 0.008605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1510.302551 seconds.
-  path: Assets/腳本/TopDowne.cs
-  artifactKey: Guid(92aa863fec59fb44b97531d85594f296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/腳本/TopDowne.cs using Guid(92aa863fec59fb44b97531d85594f296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90fa120c366cb0df3f254cf941e7722') in 0.005892 seconds 
-  Import took 0.011470 seconds .
+  Time since last request: 64.426730 seconds.
+  path: Assets/腳本/HurtNumberEffect.cs
+  artifactKey: Guid(fae66aec8038c614ab024caa1f5102e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/腳本/HurtNumberEffect.cs using Guid(fae66aec8038c614ab024caa1f5102e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fa8a76f3434d545522258c2e208575') in 0.004056 seconds 
+  Import took 0.010824 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

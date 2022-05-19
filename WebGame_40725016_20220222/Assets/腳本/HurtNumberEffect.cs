@@ -1,8 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
+
+
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
+
 
 namespace Se
 {
@@ -40,7 +40,10 @@ namespace Se
             
         private IEnumerator Test()
         {
+            print("我是第一行");
+            yield return new WaitForSeconds(1);
 
+            print("一秒後，我是第二行");
         }
         private IEnumerator Fade()
         {
@@ -62,7 +65,7 @@ namespace Se
         {
             for (int i = 0; i < 10; i++)
             {
-                rect.anchoredPosition += Vactor2.up * valueOffset;
+                rect.anchoredPosition += Vector2.up * valueOffset;
                 yield return new WaitForSeconds(0.02f);
             }
         }

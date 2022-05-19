@@ -18,7 +18,7 @@ public class HurtSystem : MonoBehaviour
 
         if (hp <= 0) Dead();
     }
-    private  virtual void Dead()
+    private void Dead()
     {
         hp = 0;
         print("<color=pink>¨¤¦â¦º¤`:" + gameObject + "</color>");
