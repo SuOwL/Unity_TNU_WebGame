@@ -14,6 +14,8 @@ public class Wpaton : MonoBehaviour
         [SerializeField, Header("武器刪除時間"), Range(0, 5)]
         private float weaponDestoryTime = 3.5f;
 
+        
+
         private float timer;
 
         private void OnDrawGizmos()
@@ -31,7 +33,7 @@ public class Wpaton : MonoBehaviour
         private void Start()
         {
             Physics2D.IgnoreLayerCollision(3, 6);
-            Physics2D.IgnoreLayerCollision(6,6);
+            Physics2D.IgnoreLayerCollision(6, 6);
             Physics2D.IgnoreLayerCollision(6, 7);
         }
 
@@ -54,8 +56,9 @@ public class Wpaton : MonoBehaviour
                 GameObject temp = Instantiate(dataWeapon.goWeapon, pos, Quaternion.identity);
 
                 temp.GetComponent<Rigidbody2D>().AddForce(dataWeapon.v3Direction * dataWeapon.speedFly);
+                temp.GetComponent<Weapon>().attack = dataWeapon.attack;
 
-                timer = 3;
+                timer = 0;
 
                 Destroy(temp, weaponDestoryTime);
             }

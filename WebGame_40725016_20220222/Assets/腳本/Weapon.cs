@@ -14,7 +14,10 @@ namespace Se
             if(collision.gameObject.tag == "¼Ä¤H")
 
             {
-                collision.gameObject.GetComponent<HurtSystem>().GetHurt(attack);
+
+
+               collision.gameObject.GetComponent<HurtSystem>().GetHurt(attack);
+                Destroy(gameObject);
             }
         }
     }

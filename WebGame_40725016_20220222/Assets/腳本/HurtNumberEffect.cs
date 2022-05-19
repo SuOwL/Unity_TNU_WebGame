@@ -13,7 +13,7 @@ namespace Se
         private float valueFade = 0.1f;
         [SerializeField, Header("放大縮小每一次值"), Range(0, 0.1f)]
         private float valueScale = 0.1f;
-        [SerializeField, Header("位移每一次值"), Range(0, 100)]
+        [SerializeField, Header("位移每一次值"), Range(0, 1)]
         private float valueOffset = 10;
 
         private CanvasGroup group;
@@ -33,6 +33,10 @@ namespace Se
             StartCoroutine(Fade());
             StartCoroutine(Scale());
             StartCoroutine(Offset());
+
+            StartCoroutine(Fade(-1, 1.5f));
+            StartCoroutine(Scale(-1, 1.5f));
+            StartCoroutine(Offset(-1, 1.5f));
         }
         public void UpdateDamage(float getDamage)
         {
@@ -46,27 +50,33 @@ namespace Se
 
             print("一秒後，我是第二行");
         }
-        private IEnumerator Fade()
+        private IEnumerator Fade(float add = 1, float wait = 0)
         {
+            yield return new WaitForSeconds(wait);
+
             for(int i = 0;i <10;i++)
             {
-                group.alpha += valueFade;
+                group.alpha += valueFade * add;
                 yield return new WaitForSeconds(0.02f);
             }
         }
-        private IEnumerator Scale()
+        private IEnumerator Scale(float add = 1, float wait = 0)
         {
+            yield return new WaitForSeconds(wait);
+
             for (int i =0;i<5;i++)
             {
-                rect.localScale += new Vector3(valueScale, valueScale, 0);
+                rect.localScale += new Vector3(valueScale, valueScale, 0) * add;
                 yield return new WaitForSeconds(0.02f);
             }
         }
-        private IEnumerator Offset()
+        private IEnumerator Offset(float add = 1, float wait = 0)
         {
+            yield return new WaitForSeconds(wait);
+
             for (int i = 0; i < 10; i++)
             {
-                rect.anchoredPosition += Vector2.up * valueOffset;
+                rect.anchoredPosition += Vector2.up * valueOffset * add;
                 yield return new WaitForSeconds(0.02f);
             }
         }

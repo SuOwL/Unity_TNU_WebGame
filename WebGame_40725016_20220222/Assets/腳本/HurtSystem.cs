@@ -13,6 +13,7 @@ public class HurtSystem : MonoBehaviour
 
     public virtual void GetHurt(float damage)
     {
+            if (hp <= 0) return;
         hp -= damage;
         print("<color=pink>¦¬¨ìªº¶Ë®`:" + damage + "</color>");
 

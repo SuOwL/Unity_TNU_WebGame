@@ -13,12 +13,13 @@ namespace Se
         [SerializeField, Header("經驗值道具")]
         private GameObject goExp;
 
-        private string parameterDead = "觸發死亡";
+        private string parameterDead = "怪獸死亡";
         private Animator ani;
         private EnemySystem enemySystem;
         private void Awake()
         {
             ani = GetComponent<Animator>();
+            enemySystem = GetComponent<EnemySystem>();
 
             hp = data.hp;
         }
