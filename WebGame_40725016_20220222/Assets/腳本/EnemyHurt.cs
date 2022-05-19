@@ -15,7 +15,7 @@ namespace Se
 
         private string parameterDead = "Ä²µo¦º¤`";
         private Animator ani;
-
+        private EnemySystem enemySystem;
         private void Awake()
         {
             ani = GetComponent<Animator>();
@@ -23,14 +23,14 @@ namespace Se
             hp = data.hp;
         }
     
-        private override void GetHurt(float damage)
+        public override void GetHurt(float damage)
         {
             base.GetHurt(damage);
 
             GameObject temp =Instantiate(goCanvasHurt, transform.position, Quaternion.identity);
             temp.GetComponent<HurtNumberEffect>().UpdateDamage(damage);
         }
-        private override void Dead()
+        protected override void Dead()
         {
             base.Dead();
             ani.SetTrigger(parameterDead);

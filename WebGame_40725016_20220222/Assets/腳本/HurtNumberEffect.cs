@@ -1,6 +1,7 @@
 
 
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 
@@ -33,7 +34,7 @@ namespace Se
             StartCoroutine(Scale());
             StartCoroutine(Offset());
         }
-        private void UpdateDamage(float getDamage)
+        public void UpdateDamage(float getDamage)
         {
             textDamage.text = getDamage.ToString();
         }

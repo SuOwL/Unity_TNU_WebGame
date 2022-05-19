@@ -10,9 +10,9 @@ namespace Se
     public class LevelManager : MonoBehaviour
     {
         [SerializeField, Header("∏g≈Á≠»")]
-        private ImageConversion imgExp;
+        private Image imgExp;
         [SerializeField, Header("µ•Ø≈")]
-        private ImageConversion textLv;
+        private Text textLv;
 
         private int exp;
         private int expMax;
@@ -34,7 +34,7 @@ namespace Se
                 expNeed[i] = (i + 1) * 100;
             }
         }
-        private  void GetExp(int getExp)
+        public  void GetExp(int getExp)
         {
             exp += getExp;
             expMax = expNeed[lv - 1];
